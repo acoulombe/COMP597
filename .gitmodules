@@ -1,0 +1,27 @@
+[submodule "cpr_gazebo"]
+	path = cpr_gazebo
+	url = https://github.com/clearpathrobotics/cpr_gazebo
+[submodule "husky"]
+	path = husky
+	url = https://github.com/husky/husky.git
+[submodule "keyboard_reader"]
+	path = keyboard_reader
+	url = https://gitlab.cs.mcgill.ca/2021-fall-applied-robotics/keyboard_reader.git
+[submodule "kinova-ros"]
+	path = kinova-ros
+	url = https://github.com/Kinovarobotics/kinova-ros.git
+[submodule "mav_comm"]
+	path = mav_comm
+	url = https://github.com/ethz-asl/mav_comm.git
+[submodule "pinocchio"]
+	path = pinocchio
+	url = https://github.com/stack-of-tasks/pinocchio
+[submodule "robot_model"]
+	path = robot_model
+	url = https://gitlab.cs.mcgill.ca/2021-fall-applied-robotics/robot_model.git
+[submodule "rotors_simulator"]
+	path = rotors_simulator
+	url = https://github.com/ethz-asl/rotors_simulator.git
+[submodule "comp597-coursework-f2021"]
+	path = comp597-coursework-f2021
+	url = https://gitlab.cs.mcgill.ca/acoulo6/comp597-coursework-f2021.git
