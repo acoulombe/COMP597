@@ -1,0 +1,8 @@
+<launch>
+
+    <!-- Launch ROS Package cubic_polynomial_planner Node -->
+    <node pkg="cubic_polynomial_planner" type="cubic_polynomial_planner"
+          name="cubic_polynomial_planner" output="screen">  
+    </node>
+  
+  </launch>

@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Launch ROS Package highlevel_controller Node -->
+    <node pkg="highlevel_controller" type="highlevel_controller"
+          name="highlevel_controller" output="screen">  
+    </node>
+
+    <rosparam command="load" file="$(find highlevel_controller)/config/controller_config.yaml"/>
+  
+  </launch>

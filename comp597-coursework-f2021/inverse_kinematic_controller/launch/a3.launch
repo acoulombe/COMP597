@@ -1,0 +1,8 @@
+<launch>
+
+    <!-- Launch ROS Package inverse_kinematic_controller Node -->
+    <node pkg="inverse_kinematic_controller" type="inverse_kinematic_controller"
+          name="inverse_kinematic_controller" output="screen">  
+    </node>
+  
+  </launch>

@@ -1,0 +1,40 @@
+joint_subscriber_topic: "/j2n7s300/joint_states"
+joint_publisher_topic: "/j2n7s300/joint_group_position_controller/command"
+finger_publisher_topic: "/j2n7s300/finger_group_position_controller/command"
+urdf_file: "/home/alex/Documents/Mcgill/Graduate/COMP-597/workspace/src/comp597-coursework-f2021/highlevel_controller/urdf/no-gripper.urdf"
+use_nullspace: false
+num_joints : 7
+num_arm_joints : 7
+num_gripper_joints : 6
+end_effector_joint_id : 7
+control_freq : 500
+robot:
+  init_joint_config : [0, 2.9, 0, 1.3, -2.07, 1.4, 0]
+  finger_target_config : [0.2, 0.2, 0.2, 0.2, 0.2, 0.2]
+  finger_open_config : [0, 0, 0, 0, 0, 0]
+  finger_close_config : [0.8, 0.8, 0.8, 0.8, 0.8, 0.8]
+  nullspace_target_config: [0.0, 2.5, 0.0, 1.0, 0.0, 1.0, 0.0]
+  torque_limit : [40, 80, 40, 40, 20, 20, 20]
+  joint_velocity_limit : [0.6283185307179589, 0.6283185307179589, 0.6283185307179589, 0.6283185307179589, 0.8377580409572781, 0.8377580409572781, 0.8377580409572781]
+
+pick_and_place:
+  home_pose : [0.3, 0.2, 0.5, 0, 0, 0]
+  grab_pose : [0.5, 0, 0.21, 0, 0, 0]
+  target_pose : [0.5, 0.3, 0.5, 0, 0, 0]
+  gripper_max_vel: 50
+  pose_error_tolerance : 0.0001
+planner:
+  attractive_gain: 
+      [10, 0, 0, 0, 0, 0,
+       0, 10, 0, 0, 0, 0,
+       0, 0, 10, 0, 0, 0,
+       0, 0, 0, 10, 0, 0,
+       0, 0, 0, 0, 10, 0,
+       0, 0, 0, 0, 0, 10]
+  gripper_gain:
+      [50, 0, 0, 0, 0, 0,
+       0, 50, 0, 0, 0, 0,
+       0, 0, 50, 0, 0, 0,
+       0, 0, 0, 50, 0, 0,
+       0, 0, 0, 0, 50, 0,
+       0, 0, 0, 0, 0, 50]

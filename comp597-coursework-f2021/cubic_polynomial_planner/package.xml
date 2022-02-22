@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cubic_polynomial_planner</name>
+  <version>0.0.1</version>
+  <description>Assignment 2 of COMP 597 - Flying the Firefly</description>
+  <maintainer email="alexandre.coulombe@mail.mcgill.ca">Alexandre Coulombe</maintainer>
+  <license>BSD</license>
+  <author email="alexandre.coulombe@mail.mcgill.ca">Alexandre Coulombe</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>gazebo_msgs</depend>
+  <depend>genmsg</depend>
+
+</package>

@@ -1,0 +1,8 @@
+<launch>
+
+  <!-- Launch ROS Package husky_teleop_controller Node -->
+  <node pkg="husky_teleop_controller" type="husky_teleop_controller"
+        name="husky_teleop_controller" output="screen">  
+  </node>
+
+</launch>
