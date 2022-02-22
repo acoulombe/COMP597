@@ -22,6 +22,3 @@
 [submodule "rotors_simulator"]
 	path = rotors_simulator
 	url = https://github.com/ethz-asl/rotors_simulator.git
-[submodule "comp597-coursework-f2021"]
-	path = comp597-coursework-f2021
-	url = https://gitlab.cs.mcgill.ca/acoulo6/comp597-coursework-f2021.git
